@@ -1,0 +1,9 @@
+{
+  "name": "agent-skill-qrcode-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "dependencies": { "qrcode": "1.5.4" },
+  "devDependencies": { "jsqr": "1.4.0", "pngjs": "7.0.0" }
+}

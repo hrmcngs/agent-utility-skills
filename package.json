@@ -1,0 +1,11 @@
+{
+  "name": "agent-utility-skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "setup": "npm ci --prefix skills/qrcode-generator",
+    "test": "node --test test/*.test.mjs"
+  }
+}
